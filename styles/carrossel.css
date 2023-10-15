@@ -1,0 +1,207 @@
+.carrossel__titulo{
+    color: var(--laranja);
+    background: var(--branco);
+    text-align: center;
+    text-transform: uppercase; /* para deixar a letra maiuscula*/
+    font-weight: 700;
+    font-size: 18px;
+    padding: 1em 0 0.5em 0; /* faz o espaçamento interno até as bordas*/
+}
+
+.swiper-wrapper img{
+    width: 100%;
+}
+
+.swiper-button-prev, .swiper-button-next{
+    display:none;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: 0.5em 0;
+}
+
+.card {
+    display:flex;
+    background: var(--branco);
+    border-radius: 10px;
+    padding: 1em;
+    margin: 1em;
+    justify-content: space-between;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card__descricao{
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 0.3em;
+}
+
+.card__titulo{
+    color: var(--laranja);
+    font-size:16px;
+    font-weight: 700;
+}
+.card__decricao__subtitulo{
+    color: #002F52;
+    font-size:18px;
+    font-weight: 700;
+    margin: 0.5em 0;
+}
+.card__texto{
+    color: #002F52;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card__saibamais{
+    background: var(--laranja);
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0.5em 0;
+    padding: 1em;
+}
+
+.card__saibamais__botao {
+    display:block;
+    text-decoration: none;
+    color: var(--branco);
+}
+
+.mais-vendidos__titulo {
+    color: var(--laranja);
+    background: var(--branco);
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    padding: 1em;
+}
+
+.card-autora {
+    border-radius: 10px;
+    background: var(--branco);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 1em;
+    margin: 1em;
+}
+
+.card-autora__perfil{
+    display:flex;
+    gap: 1em;
+}
+
+.botoes{
+    display:flex;
+}
+.card-autora__botoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em 0;
+}
+
+.autora__saibamais{
+    display: flex;
+    background-color: var(--laranja);
+    width: 49.5%;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--branco);
+}
+
+.rodape{
+    background-color: var(--branco);
+    padding: 1em 0 0 0;
+}
+.rodape__banner{
+    background: var(--degrade);
+}
+
+/*inicio dos itens do rodapé */
+.rodape__banner__titulo{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--branco);
+    padding: 1em;
+}
+
+.rodape__banner__links {
+    display: flex;
+
+}
+
+.rodape__banner__botao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 0 1em 0;
+}
+.rodape__links {
+    display:flex;
+    background: var(--laranja);
+    margin: 0.6em;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    align-items: center;
+    padding: 1em;
+    color: var(--branco);
+}
+
+.newseller{
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+
+.newseller__titulo {
+    font-size: 18px;
+    font-weight: 500;
+    color:#002F52;
+}
+
+.newseller__texto {
+    font-size: 16px;
+    font-weight: 300;
+    color: #002F52;
+    margin: 1em 0;
+}
+
+.newseller__pesquisa {
+    background-color: transparent;
+    border: 1px solid #002F52;
+    border-radius: 24px;
+    padding: 1em;
+    color: #002F52;
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+}
+
+.newseller__pesquisa::placeholder {
+    font-family: var(--fonte-principal);
+    background: url("/img/mail.svg") no-repeat;
+    background-position: 1em;
+    text-align: center;
+    color: #002F52;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.credito {
+    background-color: #002F52;
+    text-align: center;
+    padding: 1em;
+}
+
+.credito__texto {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--laranja);
+}
